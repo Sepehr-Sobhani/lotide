@@ -33,3 +33,5 @@ const result2 = map(numbers, (number) => Math.sqrt(number));
 assertArraysEqual(map1, [2, 8, 18, 32]);
 assertArraysEqual(result1, ["g", "c", "t", "m", "t"]);
 assertArraysEqual(result2, [1, 2, 3]);
+
+module.exports = map;
