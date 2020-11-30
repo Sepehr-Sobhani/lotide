@@ -1,3 +1,5 @@
+const assertEqual = require("./assertEqual");
+
 const eqArrays = (arrayOne, arrayTwo) => {
   let result = true;
   if (Array.isArray(arrayOne) && Array.isArray(arrayTwo)) {
@@ -7,10 +9,11 @@ const eqArrays = (arrayOne, arrayTwo) => {
           result = eqArrays(arrayOne[i], arrayTwo[i]);
         } else {
           if (arrayOne[i] !== arrayTwo[i]) return (result = false);
+          else return (result = true);
         }
       }
     } else result = false;
-  } else result = false;
+  } else return (result = false);
   return result;
 };
 

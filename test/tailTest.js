@@ -1,5 +1,6 @@
 const assertEqual = require("../assertEqual");
 const tail = require("../tail");
+const eqArrays = require("../eqArrays");
 
 assertEqual(tail([1]), []);
 assertEqual(tail([]), []);
