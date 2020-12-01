@@ -24,9 +24,8 @@ This project was created and published by me as part of my learnings at Lighthou
 
 ## Documentation
 
-- `assertEqual(...)`: This function compares expected and actual values.
-- `assertArraysEqual(...)`: This function compares actual and expected arrays and returns passed or failed.
-- `assertObjectsEqual(...)`: This function compares actual and expected objects and returns passed or failed.
+- `eqObjects(...)`: This function compares expected and actual objects and returns passed or failed.
+- `eqArrays(...)`: This function compares actual and expected arrays and returns passed or failed.
 - `countLetter(...)`: This function takes a string(or sentence) and returns the total number of each distincted character in that sentence.
 - `countOnly(...)`: This function takes an array of some names as the first argument and some specific names to count inside of the given array and returns the number of that name if exists.
 - `findKey(...)`: This function takes an object as the first argument and a callback function as the second one to find the specific property of that object based on the callback.
@@ -36,6 +35,6 @@ This project was created and published by me as part of my learnings at Lighthou
 - `letterPositions(...)`: This function takes a string or sentence and returns the first occurrence of a given character in the sentence.
 - `map(...)`: This function takes an array as the first argument and a callback function as the second one and assign that callback function to the given array.
 - `middle(...)`: This function takes an array and returns the middle element of that array(if the length of array is even it returns the average of both middle elements).
-- `ftail(...)`: This function takes an array and returns all elements after the first element as a new array.
-- `ftakeUntil(...)`: This function takes an array as the fisrt argument and a callback function as the second one and returns a new array of the same elements until the first occurrence of a given element.
-- `fwithout(...)`: This function takes two array and returns the first array without elements inside of the second array.
+- `tail(...)`: This function takes an array and returns all elements after the first element as a new array.
+- `takeUntil(...)`: This function takes an array as the fisrt argument and a callback function as the second one and returns a new array of the same elements until the first occurrence of a given element.
+- `without(...)`: This function takes two array and returns the first array without elements inside of the second array.
