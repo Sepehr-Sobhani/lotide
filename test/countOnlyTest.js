@@ -20,8 +20,6 @@ const itemsToCount = {
   Agouhanna: false,
 };
 
-// assertEqual(result1["Agouhanna"], undefined);
-
 describe("#countOnly", () => {
   it(`returns 1 for 'Jason' as first parameter and  '{
         Jason: true,

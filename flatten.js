@@ -9,3 +9,6 @@ const flatten = (array) => {
 };
 
 module.exports = flatten;
+
+
+
