@@ -24,8 +24,9 @@ This project was created and published by me as part of my learnings at Lighthou
 
 ## Documentation
 
-The following functions are currently implemented:
-
+- `assertEqual(...)`: This function compares expected and actual values.
+- `assertArraysEqual(...)`: This function compares actual and expected arrays and returns passed or failed.
+- `assertObjectsEqual(...)`: This function compares actual and expected objects and returns passed or failed.
 - `countLetter(...)`: This function takes a string(or sentence) and returns the total number of each distincted character in that sentence.
 - `countOnly(...)`: This function takes an array of some names as the first argument and some specific names to count inside of the given array and returns the number of that name if exists.
 - `findKey(...)`: This function takes an object as the first argument and a callback function as the second one to find the specific property of that object based on the callback.
